@@ -27,7 +27,7 @@ const FlashCard = ({ quesNumber, question, answer, difficulty, category }) => {
           <div className="text-gray-400 text-sm">Click to flip</div>
         </div>
         <div className="card-back">
-          <div className="h-full w-full overflow-auto">{ans}</div>
+          <div className="h-full w-full overflow-auto">{answer}</div>
         </div>
       </div>
     </div>
